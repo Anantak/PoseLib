@@ -54,7 +54,7 @@ target_compile_definitions(PoseLib PUBLIC
 # Benchmark
 option(WITH_BENCHMARK "Build benchmark example." OFF)
 if(WITH_BENCHMARK)
-	add_subdirectory(benchmark)
+	add_subdirectory(poselib_benchmark)
 endif()
 
 
